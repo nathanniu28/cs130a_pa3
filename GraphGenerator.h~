@@ -1,0 +1,16 @@
+// GraphGenerator.h
+
+#ifndef GRAPHGENERATOR_H
+#define GRAPHGENERATOR_H
+
+#include <iostream>
+using namespace std;
+
+class GraphGenerator
+{
+ public:
+  GraphGenerator();
+ private:
+}
+
+#endif

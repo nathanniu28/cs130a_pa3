@@ -1,0 +1,8 @@
+// GraphGenerator.cpp
+
+#include <iostream>
+#include "GraphGenerator.h"
+using namespace std;
+
+GraphGenerator::GraphGenerator(){
+}
