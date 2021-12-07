@@ -8,18 +8,21 @@
 //#include <vector>
 using namespace std;
 
-struct List
-{
-  Node* vertex;
-  List* next;
-};
+
 
 struct Node
 {
   int key;
+  List* adj;
   Node* left = NULL;
   Node* right = NULL;
   int height = 1;
+};
+
+struct List
+{
+  Node* vertex;
+  List* next;
 };
 
 class GraphGenerator
